@@ -1,0 +1,39 @@
+.body{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+hr {
+    height: 2px;
+    background-color: gray;
+}
+
+h3 {
+    width: 200px;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+.toright{
+    text-align: right;
+}
+
+.unalinea{
+    display: inline-block;
+}
+
+.alineado{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 2rem;
+}
+
+.margenyuki{
+    align-items: center;
+    align-self: center;
+}
